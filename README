@@ -1,1 +1,38 @@
-# Portfolio-Projects
+COVID-19 Data Exploration in SQL 
+
+This SQL script is designed to explore COVID-19 data using various SQL operations such as joins, CTEs, temp tables, window functions, aggregate functions, creating views, and converting data types. It provides insights into COVID-19 cases, deaths, population, vaccination rates, and more.
+Prerequisites
+
+    SQL Server or any compatible relational database management system.
+    Access to the "PortfolioProject" database that contains the required tables: "CovidDeaths" and "CovidVaccinations".
+
+
+The SQL script is divided into several sections, each performing a specific analysis or calculation:
+
+    Selecting COVID-19 data for countries with continents: Retrieves COVID-19 data for countries with continents and orders the result by certain columns.
+
+    Selecting initial data for COVID-19 cases: Retrieves specific columns related to COVID-19 cases and orders the result.
+
+    Calculating death percentage based on total cases: Calculates the death percentage for countries with states based on the total number of cases and deaths.
+
+    Calculating percentage of population infected: Calculates the percentage of population infected with COVID-19 based on total cases and population.
+
+    Countries with highest infection rate compared to population: Identifies countries with the highest infection rate by comparing the total number of cases to the population.
+
+    Countries with highest death count per population: Determines countries with the highest death count per population.
+
+    Analyzing death count per continent: Shows the total death count per continent.
+
+    Analyzing global numbers: Provides global statistics on total cases, total deaths, and death percentage.
+
+    Total population vs. vaccinations: Analyzes the percentage of the population that has received at least one COVID-19 vaccine.
+
+    Using CTE to perform calculations: Uses a Common Table Expression (CTE) to perform calculations on the partitioned data.
+
+    Using Temp Table to perform calculations: Uses a temporary table to store intermediate results for performing calculations.
+
+    Creating a view to store data: Creates a view named "PercentPopulationVaccinated" to store the data for later visualization.
+
+
+For any questions or inquiries, please contact Stephanie LiVecchi at stephlivecchi@gmail.com
+
